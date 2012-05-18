@@ -1,0 +1,178 @@
+/* CSS Document */
+body{
+	margin:0;
+}
+
+div.base{
+	background-color:#999;
+}
+
+div#placeHolder{
+	background-color:#999;
+	position:absolute;
+}
+
+div#menuField {
+	background-color:#999;
+	position:absolute;
+	height:35px;
+}
+
+div#mineCount {
+	margin-top:5px;
+	margin-left:10px;
+	width:
+}
+
+div#levelDiv{
+	position:absolute;
+}
+
+div#face {
+	position:absolute;
+	background:transparent url(../images/minesweeper_tiles.png);
+	width:27px;
+	height:27px;
+}
+
+div#face.smile {
+	background-position:-81px -81px;
+}
+
+div#face.win {
+	background-position:0px -108px;
+}
+
+div#face.lose {
+	background-position:-27px -108px;
+}
+
+div#timer {
+	position:absolute;
+}
+
+div.cell{
+	background:transparent url(../images/minesweeper_tiles.png);
+	width:27px;
+	height:27px;
+	position:absolute;
+}
+
+div.cell.cover{
+	background-position:0px 0px;
+}
+
+div.cell.flag{
+	background-position:-27px 0px;
+}
+
+div.cell.mine{
+	background-position:-54px 0px;
+}
+
+div.cell.zero{
+	background-position:-81px 0px;
+}
+
+div.cell.one{
+	background-position:0px -27px;
+}
+
+div.cell.two{
+	background-position:-27px -27px;
+}
+
+div.cell.three{
+	background-position:-54px -27px;
+}
+
+div.cell.four{
+	background-position:-81px -27px;
+}
+
+div.cell.five{
+	background-position:0px -54px;
+}
+
+div.cell.six{
+	background-position:-27px -54px;
+}
+
+div.cell.seven{
+	background-position:-54px -54px;
+}
+
+div.cell.eight{
+	background-position:-81px -54px;
+}
+
+div.cell.boom{
+	background-position:0px -81px;
+}
+
+div.cell.wrong{
+	background-position:-27px -81px;
+}
+
+div.cell.question{
+	background-position:-54px -81px;
+}
+
+div.digit{
+	background:transparent url(../images/digits.png);
+	width:17px;
+	height:30px;
+	float:left;
+}
+
+div.digit.zero{
+	background-position:0px 0px;
+}
+
+div.digit.one{
+	background-position:-17px 0px;
+}
+
+div.digit.two{
+	background-position:-34px 0px;
+}
+
+div.digit.three{
+	background-position:-51px 0px;
+}
+
+div.digit.four{
+	background-position:-68px 0px;
+}
+
+div.digit.five{
+	background-position:-85px 0px;
+}
+
+div.digit.six{
+	background-position:-102px 0px;
+}
+
+div.digit.seven{
+	background-position:-119px 0px;
+}
+
+div.digit.eight{
+	background-position:-136px 0px;
+}
+
+div.digit.nine{
+	background-position:-153px 0px;
+}
+
+div.digit.sign{
+	background-position:-170px 0px;
+}
+
+div#blockDiv {
+	position:absolute;
+	display:none;
+	z-index:990;
+	background-color:#FFF;
+	opacity:0.5;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script type="text/javascript" src="minesweeper.js"></script>
+<script>
+window.onload = function() {
+	var game = new Game("placeHolder");
+	game.setLevel("hard");
+	game.start();
+}
+</script>
+</head>
+
+<body>
+<div id="levelDiv">
+<select id="difficulty">
+    <option value="easy">Easy
+    </option>
+    <option value="middle">Middle
+    </option>
+    <option value="hard">Hard
+    </option>
+</select>
+</div>
+<div id="menuField">
+	<div id="mineCount">
+    	<div id="mineCountSign" class="">
+        </div>
+        <div id="mineCountD2" class="digit zero">
+        </div>
+        <div id="mineCountD1" class="digit zero">
+        </div>
+        <div id="mineCountD0" class="digit zero">
+        </div>
+    </div>
+    <div id="face" class="smile">
+    </div>
+    <div id="timer">
+    	<div id="timerD2" class="digit zero">
+        </div>
+        <div id="timerD1" class="digit zero">
+        </div>
+        <div id="timerD0" class="digit zero">
+        </div>
+    </div>
+</div>
+<div id="blockDiv">
+</div>
+<div id="placeHolder">
+</div>
+
+
+</body>
+</html>
